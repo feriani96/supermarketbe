@@ -60,9 +60,9 @@ public class ArticleController {
 
 	//creating put mapping that updates the article detail
 	@PutMapping("/article")  
-	private Article update(@RequestBody  Article a)   
+	private Article update(@RequestBody  Article ar)   
 	{  
-		as.saveOrUpdate(a);  
-		return a;  
+		as.saveOrUpdate(ar);  
+		return ar;  
 	}  
 }
