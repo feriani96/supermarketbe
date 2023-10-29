@@ -60,9 +60,9 @@ public class CategoryController {
 
 	//creating put mapping that updates the Category detail
 	@PutMapping("/Category")  
-	private Category update(@RequestBody  Category c)   
+	private Category update(@RequestBody  Category ca)   
 	{  
-		cS.saveOrUpdate(c);  
-		return c;  
+		cS.saveOrUpdate(ca);  
+		return ca;  
 	}  
 }
